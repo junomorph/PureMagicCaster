@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"show_notification": true,
+	"category": "equipment",
+	"pattern": [
+		" rr",
+		" xr",
+		"/  "
+	],
+	"key": {
+		"r": "minecraft:amethyst_shard",
+		"x": "minecraft:nether_star",
+		"/": "stick"
+	},
+	"result": {
+		"id": "minecraft:netherite_sword",
+		"components": {
+			"minecraft:custom_data": {
+				"jmp_pmc": true,
+				"jmp_pmc_staff": true
+			},
+			"minecraft:custom_name": {
+					"text": "Pure Magic Staff",
+					"color": "blue",
+					"bold": true,
+					"italic": false
+			},
+			"minecraft:consumable": {
+				"consume_seconds": 9999999999,
+				"animation": "spyglass",
+				"sound": {
+					"sound_id": "intentionally_empty"
+				},
+				"has_consume_particles": false,
+				"on_consume_effects": []
+			},
+            "attack_range": {
+                "hitbox_margin": 0,
+                "max_creative_reach": 0,
+                "max_reach": 0,
+                "min_creative_reach": 0,
+                "min_reach": 0,
+                "mob_factor": 0
+            },
+			"minecraft:item_model": "pmc_staff",
+			"minecraft:lore": [
+				{
+					"text": "純粋な魔力を打ち出す魔法の杖",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hide_tooltip": false,
+				"hidden_components": [
+					"minecraft:attribute_modifiers",
+					"minecraft:unbreakable"
+				]
+			},
+			"!minecraft:equippable": {},
+            "!enchantable": {},
+            "!tool": {},
+			"minecraft:max_stack_size": 1,
+			"minecraft:unbreakable": {}
+		},
+		"count": 1
+	}
+}
