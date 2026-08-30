@@ -13,7 +13,7 @@
 		"/": "stick"
 	},
 	"result": {
-		"id": "minecraft:command_block",
+		"id": "minecraft:netherite_sword",
 		"components": {
 			"minecraft:custom_data": {
 				"jmp_pmc": true,
@@ -34,25 +34,14 @@
 				"has_consume_particles": false,
 				"on_consume_effects": []
 			},
-			"minecraft:attribute_modifiers": [
-				{
-					"type": "minecraft:entity_interaction_range",
-					"id": "jmp_pmc",
-					"amount": -1,
-					"operation": "add_multiplied_total",
-					"slot": "hand",
-					"display": {
-						"type": "default"
-					}
-				},
-				{
-					"type": "minecraft:block_interaction_range",
-					"id": "jmp_pmc",
-					"amount": -1,
-					"operation": "add_multiplied_total",
-					"slot": "hand"
-				}
-			],
+            "attack_range": {
+                "hitbox_margin": 0,
+                "max_creative_reach": 0,
+                "max_reach": 0,
+                "min_creative_reach": 0,
+                "min_reach": 0,
+                "mob_factor": 0
+            },
 			"minecraft:item_model": "pmc_staff",
 			"minecraft:lore": [
 				{
@@ -68,6 +57,8 @@
 				]
 			},
 			"!minecraft:equippable": {},
+            "!enchantable": {},
+            "!tool": {},
 			"minecraft:max_stack_size": 1,
 			"minecraft:unbreakable": {}
 		},
