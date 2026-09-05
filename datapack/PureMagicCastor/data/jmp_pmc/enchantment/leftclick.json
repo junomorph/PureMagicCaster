@@ -1,0 +1,28 @@
+{
+  "anvil_cost": 999999999,
+  "description": "",
+  "max_cost": {
+    "base": 999999999,
+    "per_level_above_first": 999999999
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 999999999,
+    "per_level_above_first": 999999999
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "minecraft:stick",
+  "weight": 1,
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "jmp_pmc:pmc/sword/left_click"
+        }
+      }
+    ]
+  }
+}

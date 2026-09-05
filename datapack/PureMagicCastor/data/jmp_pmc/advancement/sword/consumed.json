@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": {
+							"jmp_pmc": true,
+							"jmp_pmc_sword": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [["req"]],
+	"rewards": {
+		"function": "jmp_pmc:pmc/sword/consumed"
+	}
+}

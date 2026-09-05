@@ -52,7 +52,6 @@
 			"minecraft:tooltip_display": {
 				"hide_tooltip": false,
 				"hidden_components": [
-					"minecraft:attribute_modifiers",
 					"minecraft:unbreakable"
 				]
 			},
